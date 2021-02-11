@@ -47,7 +47,7 @@ table {
   border-spacing: 0;
 }
 
-/*reset css*/
+/*header*/
 
 header {
   height: 70px;
@@ -76,6 +76,8 @@ header {
   color: #fafafa;
   font-size: 16px;
 }
+
+/*main*/
 
 .main-visual {
   height:650px;
@@ -122,12 +124,18 @@ header {
   margin: 0 auto;
 }
 
+.portfolio {
+  padding-bottom: 90px;
+  background-color: #eceff1;
+}
+
 .images {
   max-width: 920px;
   margin:0 auto;
   display: flex;
   flex-wrap: wrap;
 }
+
 
 .img {
   width: 300px;
@@ -165,6 +173,64 @@ header {
   margin-left: 10px;
   margin-top: 10px;
 }
+
+.feature {
+  margin-bottom: 90px;
+}
+
+.feature-index {
+  display: flex;
+  justify-content: center;
+}
+
+.strength {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+}
+
+.strength:nth-child(n+2) {
+  margin-left: 10px;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.strength-title {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px;
+}
+
+.profile {
+  background-color: #eceff1
+}
+
+.profile-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*max-width: 1024px;*/
+  text-align: center;
+  padding: 30px 0 90px 0;
+}
+
+.profile-photo {
+  border-radius: 180px;
+}
+
+.profile-text {
+  margin-bottom: 20px;
+}
+
+.profile-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 
 
 footer {
