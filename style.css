@@ -67,12 +67,112 @@ header {
   height: 70px;
 }
 
-header ul {
+.header ul {
   display: flex;
 }
 
-header li {
+.header li {
   margin:auto 30px;
   color: #fafafa;
   font-size: 16px;
+}
+
+.main-visual {
+  height:650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-text, .sub-text {
+  color: #fafafa;
+  text-align: center;
+}
+
+.main-text {
+  font-size: 64px;
+  padding-top: 200px;
+}
+
+.sub-text {
+  font-size:20px;
+  padding-top: 10px;
+}
+
+.title {
+  font-size:32px;
+  font-weight: bold;
+  color: #000000;
+  padding-bottom: 8px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  padding:30px 0;
+  font-size: 16px;
+  color: #000;
+  /*line-height: 24px;*/
+}
+
+.line {
+  border-bottom:3px solid #ec715f;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.images {
+  max-width: 920px;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  width: 300px;
+  height: 250px;
+  background-size: 100% 100%;
+}
+
+.img1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.img2 {
+  background-image: url(img/websuku.png);
+  margin-left: 10px;
+}
+
+.img3 {
+  background-image: url(img/write.jpg);
+  margin-left: 10px;
+}
+
+.img4 {
+  background-image: url(img/webcamp.png);
+  margin-top: 10px;
+}
+
+.img5 {
+  background-image: url(img/talk.jpg);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.img6 {
+  background-image: url(img/webcamp-mother.png);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+footer {
+  font-size: 16px;
+  color: #fafafa;
+  background-color: #ec715f;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
 }
