@@ -51,7 +51,6 @@ table {
 
 header {
   height: 70px;
-  width: 100%;
   background-color: #ec715f;
 }
 
@@ -77,6 +76,10 @@ header {
   font-size: 16px;
 }
 
+.sp-nav {
+  display: none;
+}
+
 /*main*/
 
 .main-visual {
@@ -94,6 +97,7 @@ header {
 .main-text {
   font-size: 64px;
   padding-top: 200px;
+  font-weight: bold;
 }
 
 .sub-text {
@@ -205,20 +209,27 @@ header {
 }
 
 .profile {
-  background-color: #eceff1
+  background-color: #eceff1;
 }
 
 .profile-details {
   display: flex;
   justify-content: center;
-  align-items: center;
-  /*max-width: 1024px;*/
-  text-align: center;
   padding: 30px 0 90px 0;
 }
 
 .profile-photo {
   border-radius: 180px;
+  width: 250px;
+  height: 250px;
+}
+
+.right-side, .left-side {
+  width: 512px;
+}
+
+.left-side {
+  text-align: center;
 }
 
 .profile-text {
@@ -231,7 +242,35 @@ header {
   margin-bottom: 5px;
 }
 
+.contact-form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
 
+.left, .right {
+  width: 400px;
+}
+
+.contact-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin:20px 0 5px 0;
+}
+
+a {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.sns {
+  display: flex;
+}
+
+.sns-icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
 
 footer {
   font-size: 16px;
@@ -241,4 +280,26 @@ footer {
   width: 100%;
   height: 60px;
   line-height: 60px;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  body {
+    max-width: 100%;
+  }
+ 
+ header, .logo {
+   height: 50px;
+ }
+ 
+ .pc-nav {
+   display: none;
+ }
+ 
+ .sp-nav {
+   display: block !important;
+ }
+ 
+  
 }
